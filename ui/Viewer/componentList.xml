@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="234,230">
+  <displayList>
+    <graph id="n12_aocd" name="bar" xy="0,0" size="234,30" type="rect" fillColor="#ff383838"/>
+    <text id="n13_aocd" name="title" xy="75,3" size="84,24" font="SimHei" fontSize="16" color="#ffffff" vAlign="middle" text="Enrty List"/>
+    <graph id="n14_aocd" name="bg" xy="0,29" size="234,201" type="rect" fillColor="#ff383838">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n11_aocd" name="list" xy="1,30" size="232,200" overflow="scroll" defaultItem="ui://2uyz29olaocdl" autoClearItems="true">
+      <relation target="" sidePair="height-height,center-center"/>
+      <item title="Main"/>
+      <item title="Main"/>
+      <item title="Main"/>
+      <item title="Main"/>
+    </list>
+  </displayList>
+  <transition name="show">
+    <item time="0" type="Alpha" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Visible" value="true"/>
+    <item time="0" type="XY" tween="true" startValue="0,0" endValue="234,0" duration="12"/>
+  </transition>
+  <transition name="hide">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="0" type="XY" tween="true" startValue="0,0" endValue="-234,0" duration="12"/>
+    <item time="12" type="Visible" value="false"/>
+  </transition>
+</component>

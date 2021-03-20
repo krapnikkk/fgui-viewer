@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,250">
+  <displayList>
+    <text id="n6_99yk" name="text_upload" xy="38,190" size="323,26" fontSize="18" color="#ffffff" text="Click or drag file to this area to upload">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n8_99yk" name="icon_upload" src="99yk3" fileName="上传.png" xy="136,34">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+</component>

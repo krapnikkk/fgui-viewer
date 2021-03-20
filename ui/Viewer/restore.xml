@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="36,36">
+  <displayList>
+    <image id="n0_ysa2" name="n0" src="aocdi" fileName="image/还原.png" xy="8,0" size="20,20" aspect="true"/>
+    <text id="n2_aocd" name="n2" xy="-5,20" size="46,19" fontSize="12" color="#ffffff" align="center" vAlign="middle" text="restore">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1024,1024">
+  <displayList>
+    <graph id="n4_99yk" name="bg" xy="0,0" size="1024,1024" type="rect" lineSize="0" fillColor="#ff333333">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </graph>
+    <graph id="n0_99yk" name="header" xy="0,0" size="1024,48" type="rect" lineSize="0" lineColor="#ff666666" fillColor="#ff666666">
+      <relation target="" sidePair="width-width,center-center,top-top"/>
+    </graph>
+    <text id="n1_99yk" name="title" xy="451,14" size="121,26" fontSize="18" color="#ffffff" bold="true" text="FGUI-Viewer">
+      <relation target="n0_99yk" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n3_99yk" name="link" src="ysa2g" fileName="link.xml" xy="947,12">
+      <relation target="n0_99yk" sidePair="center-center,middle-middle,left-left"/>
+    </component>
+    <graph id="n5_99yk" name="canvas" xy="112,138" size="800,800" visible="false" type="rect" lineSize="0" fillColor="#ff999999">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="n9_ysa2" sidePair="width-width,height-height"/>
+    </graph>
+    <loader id="n9_ysa2" name="viewer" xy="112,138" size="800,800" align="center" vAlign="middle" autoSize="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </loader>
+    <component id="n6_99yk" name="gc_tips" src="ysa2f" fileName="gc_tips.xml" xy="312,414" size="400,250">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </component>
+    <component id="n10_ysa2" name="toolbar" src="ysa27" fileName="toolbar.xml" xy="272,877" size="480,48" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n11_aocd" name="list" src="aocdn" fileName="componentList.xml" xy="-234,48" size="234,974">
+      <relation target="" sidePair="height-height"/>
+    </component>
+  </displayList>
+</component>

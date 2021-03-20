@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="36,36">
+  <displayList>
+    <image id="n7_ysa2" name="n7" src="aocdk" fileName="image/列表(1).png" xy="8,0" size="20,20" aspect="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n8_aocd" name="n8" xy="7,20" size="22,19" fontSize="12" color="#ffffff" align="center" vAlign="middle" text="list">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+</component>

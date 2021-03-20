@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,48">
+  <displayList>
+    <graph id="n2_ysa2" name="bg" xy="0,0" size="480,48" type="rect" lineSize="0" fillColor="#ff191919">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n7_ysa2" name="list" src="ysa2a" fileName="list.xml" xy="40,6" tooltips="包列表"/>
+    <component id="n8_ysa2" name="restore" src="ysa2d" fileName="restore.xml" xy="222,6">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n9_ysa2" name="delete" src="ysa2e" fileName="delete.xml" xy="404,6"/>
+  </displayList>
+</component>

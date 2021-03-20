@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="2uyz29ol">
+  <resources>
+    <component id="po0c0" name="Main.xml" path="/" exported="true"/>
+    <image id="99yk3" name="上传.png" path="/image/"/>
+    <image id="ysa26" name="github.png" path="/image/"/>
+    <component id="ysa27" name="toolbar.xml" path="/" exported="true"/>
+    <component id="ysa2a" name="list.xml" path="/"/>
+    <component id="ysa2d" name="restore.xml" path="/"/>
+    <component id="ysa2e" name="delete.xml" path="/"/>
+    <component id="ysa2f" name="gc_tips.xml" path="/"/>
+    <component id="ysa2g" name="link.xml" path="/"/>
+    <image id="aocdi" name="还原.png" path="/image/"/>
+    <image id="aocdj" name="清空.png" path="/image/"/>
+    <image id="aocdk" name="列表(1).png" path="/image/"/>
+    <component id="aocdl" name="ListItem.xml" path="/" exported="true"/>
+    <image id="aocdm" name="icon_component.png" path="/image/"/>
+    <component id="aocdn" name="componentList.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="Viewer" genCode="true"/>
+</packageDescription>
