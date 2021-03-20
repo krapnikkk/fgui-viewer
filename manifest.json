@@ -1,0 +1,22 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/promise/promise.js",
+		"libs/fairygui/fairygui.js",
+		"libs/rawinflate/rawinflate.js"
+	],
+	"game": [
+		"bin-debug/App.js",
+		"bin-debug/FileParser.js",
+		"bin-debug/Main.js",
+		"bin-debug/events/EventManager.js",
+		"bin-debug/events/Events.js",
+		"bin-debug/view/ComponentList.js",
+		"bin-debug/view/Toolbar.js",
+		"bin-debug/view/Viewer.js"
+	]
+}

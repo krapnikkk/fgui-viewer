@@ -1,0 +1,18 @@
+{
+	"groups":[
+	{
+		"keys":"Viewer_atlas0,Viewer",
+		"name":"preload"
+	}],
+	"resources":[
+	{
+		"name":"Viewer_atlas0",
+		"type":"image",
+		"url":"assets/Viewer_atlas0.png"
+	},
+	{
+		"name":"Viewer",
+		"type":"bin",
+		"url":"assets/Viewer.fui"
+	}]
+}
